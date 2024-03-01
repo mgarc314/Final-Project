@@ -1,1 +1,4 @@
-
+1. For this project I plan to create a cryptogram game/simulation, where a piece of text is written in code and must be deciphered through numbers. Individuals will be given a statement with some letters already provided and set in place in the statement, with each of the letters having a number under them that corresponds to them. Players will need to fill in the rest of the letters through the already provided letters to reveal the statement. Players will only be allowed three mistakes, and once they use those mistakes they will be given a new statement that they must figure out.
+2.a. The first function will contain all the statements from the game and randomly choose which statement to display and with what letters.
+2.b. The second function will allow players to type in the letter of their choosing.
+2.c. The third function will allow the player to continue to the next statement or have them start over with a new statement after three mistakes.
