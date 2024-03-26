@@ -1,11 +1,21 @@
 This document will provide a guide to using the cryptogram game/simulation.
 The materials that I will provide users to guide them through using this program is firstly an introduction page.
-  - This introduction page will include clear inctsructions of the project/game. Exapling that this is a cryptogram game/simulation, where a piece of text is written in code and must be deciphered through numbers. Individuals will be given a statement with some letters already provided and set in place in the statement, with each of the letters having a number under them that corresponds to them. Players will need to fill in the rest of the letters through the already provided letters to reveal the statement. Players will only be allowed three mistakes, and once they use those mistakes they will be given a new statement that they must figure out.
+  - This introduction page will include clear inctsructions of the project/game. Explaining that this is a cryptogram game/simulation, where a piece of text is written in code and must be deciphered through numbers. Individuals will be given a statement with some letters already provided and set in place in the statement, with each of the letters having a number under them that corresponds to them. Players will need to fill in the rest of the letters through the already provided letters to reveal the statement. Players will only be allowed three mistakes, and once they use those mistakes they will be given a new statement that they must figure out.
   - On top of instructions this first page will include a start button that allows players to commence.
 This will then lead to the simulation beginning.
   - Functions/Method Overview:
-    - 'total_statements': Contains all the statements that users will get the chance to decipher
-    - 'random_statement':
+    - Function 1:
+      - 'total_statements()': Contains all the statements that users will get the chance to decipher. (Statement with some letters already provided and set in place in the statement, with each of the letters having a number under them that corresponds to them).
+      - 'choose_statement()': Randomly selects a statement from the 'total_statements' function and determines which letters are alredy provided. It then returns the selected statement with provided letters and corresponding numbers.
+    - Function 2:
+      - 'guess_letter(letter)': Allows users to input the letter they think corresponds to a ceratain number in the statement.
+        - 'letter': This argument represents the letter choosen by by the user as their guess.
+      - This then retruns feedback indicating whether the guess was correct or incorrect.
+        - If the guess is correct, it returns a message indicating a correct guess
+        - If the guess is incorrect, it returns a message indicating an incorrect guess.
+        - If the guessed letter is not amoung the provided letters, it returns a message indicating that the letter is not valid for this guess
+    - Function 3:
+      - 'check_mistakes()': 
 2.a. The first function will contain all the statements from the game and randomly choose which statement to display and with what letters.
 2.b. The second function will allow players to type in the letter of their choosing.
 2.c. The third function will allow the player to continue to the next statement or have them start over with a new statement after three mistakes.
