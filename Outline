@@ -4,18 +4,17 @@ The materials that I will provide users to guide them through using this program
   - On top of instructions this first page will include a start button that allows players to commence.
 This will then lead to the simulation beginning.
   - Functions/Method Overview:
-    - 'total_statements()': Contains all the statements that users will get the chance to decipher. (Statement with some letters already provided and set in place in the statement, with each of the letters having a number under them that corresponds to them).
-      - 'statement_#': Contains all the statements
-      - 'provided_letters': Dictionary containing provided letters and their corresponding numbers.
-    - 'choose_statement()': Randomly selects a statement from the 'total_statements' function and determines which letters are alredy provided. It then returns the selected statement with provided letters and corresponding numbers.
-    - 'guess_letter(letter)': Allows users to input the letter they think corresponds to a ceratain number in the statement.
-      - 'letter': This argument represents the letter choosen by by the user as their guess.
-        - This then retruns feedback indicating whether the guess was correct or incorrect.
-           - If the guess is correct, it returns a message indicating a correct guess
-           - If the guess is incorrect, it returns a message indicating an incorrect guess.
-           - If the guessed letter is not amoung the provided letters, it returns a message indicating that the letter is not valid for this guess.
-    - 'display_cryptogram(statement_#, provided letters)': Iterates through each character in the statement. If a guess is in the 'provided_letters', it is displayed in uppercase. If not the character will be displayed as a blank.This function will print a visual represenation of the cryptogram puzzle. 
-    - 'check_mistakes()': Keeps track of the number of mistakes made, the game is triggerd to end/start over when the maximum number of mistakes is reached.
-    - A main game loop wil be implemented 
+    - Function 1: 'choose_statement()'
+      - Description: Randomly selects a statement from the game and determines which letters are alredy provided. 
+      - Arguments: None
+      - Returns: Returns the selected statement with provided letters and corresponding numbers.
+    - Function 2: 'guess_letter(letter)'
+      - Description: Allows users to input the letter they think corresponds to a ceratain number in the statement.
+      - Arguments: 'letter' - This argument represents the letter choosen by by the user as their guess.
+      - Returns: Retruns feedback indicating whether the guess was correct or incorrect.
+    - Function 3:'check_mistakes()' 
+      - Description: Keeps track of the number of mistakes made, the game is triggerd to end/start over when the maximum number of mistakes is reached.
+      - Arguments: None
+      - Returns: Information regarding the number of mistakes reaming.
 This program will not only be a fun game but will also test users puzzle solving abilities!
 
