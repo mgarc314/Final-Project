@@ -1,1 +1,5 @@
-
+- User launches program in the Termianl by running the 'cryptogram' file/scrpt that will run the program.
+- Upon launching the program, usesers will be presenetd with an intoduction page and then a statement to decipher.
+- They input letters based on the provided letters.
+- After three incorrect guess the game will provide users with a new statement.
+- Upon the user successfully deciphering the statemnt, they will advance to the next statement.
