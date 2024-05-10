@@ -1,0 +1,16 @@
+Welcome to the Cryptogram Game!
+
+This game is both fun and gets your brain thinking! Let's go over the rules.
+
+You will be provided with a stamen with some letters already provided and set in place within the statement.
+
+Within the provided statement the letters already provided will have a corresponding number below them.
+
+This correlation then designates a letter with a number, helping you clue the missing letters!
+
+As you guess and get a letter correct, the corresponding number will appear below.
+
+
+You will only be allowed three mistakes before being given a new statement to decipher.
+
+Let's begin!
