@@ -1,0 +1,15 @@
+statement_1: How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+statement_2: I never feel more alone than when i'm trying to put sunscreen on my back.
+statement_3: Most of the trouble in the world is caused by people wanting to be important.
+statement_4: To love one another just may be the fight of our lives.
+statement_5: A good piece of art should make a revolution inside of you.
+statement_6: And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.
+statement_7: Do not impose on others what you yourself do not desire.
+statement_8: We're fools whether we dance or not so we might as well dance.
+statement_9: Spring will come and so will happiness.
+statement_10: Once you are real you can't become unreal again.
+
+
+
+
+
